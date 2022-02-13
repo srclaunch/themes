@@ -1,4 +1,6 @@
-"use strict";Object.defineProperty(exports,"__esModule",{value:!0});exports[Symbol.toStringTag]="Module";var l=require("react"),i=require("styled-components");function h(r){return r&&typeof r=="object"&&"default"in r?r:{default:r}}var c=h(l),x=`html, body, #root {
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0});exports[Symbol.toStringTag]="Module";var l=require("react"),i=require("styled-components");function h(r){return r&&typeof r=="object"&&"default"in r?r:{default:r}}var c=h(l),x=`html,
+body,
+#root {
   background-color: var(--bg-color-default);
 
   /* Proportions */
@@ -140,13 +142,13 @@
   --text-weight-most: 700;
 
   /* Shadows */
-  --shadow-depth-lowest: inset 0 20px 60px rgba(0, 0, 0, 0.1);
-  --shadow-depth-lower: inset 0 17px 25px rgba(0, 0, 0, 0.15);
+  --shadow-depth-lowest: inset 0 -20px 60px rgba(0, 0, 0, 0.1);
+  --shadow-depth-lower: inset 0 2px 5px rgba(0, 0, 0, 0.1);
   --shadow-depth-low: inset 0 1px 3px rgba(0, 0, 0, 0.1);
   --shadow-depth-surface: none;
   --shadow-depth-high: 0 1px 3px rgba(0, 0, 0, 0.05);
   --shadow-depth-higher: 0 4px 27px rgba(0, 0, 0, 0.16);
-  --shadow-depth-highest: 0 10px 62px rgba(0, 0, 0, 0.10);
+  --shadow-depth-highest: 0 10px 62px rgba(0, 0, 0, 0.1);
 
   /* Layout */
   --z-index-depth-lowest: -300;
@@ -171,6 +173,7 @@
   --bg-color-more-menu-rgb: var(--bg-color-default-rgb);
   --bg-color-navigation-bar-rgb: var(--bg-color-lightest-rgb);
   --bg-color-navigation-menu-rgb: var(--bg-color-lightest-rgb);
+  --bg-color-page-rgb: var(--bg-color-lighter-rgb);
   --bg-color-slide-panel-rgb: var(--bg-color-lightest-rgb);
   --bg-color-workspace-rgb: var(--bg-color-lighter-rgb);
 
@@ -192,7 +195,9 @@
   --text-color-title-rgb: var(--text-color-dark-rgb);
   --text-color-sub-title-rgb: var(--text-color-default-rgb);
 }
-`;const e={css:x,description:"Default AppLab Light theme",id:"applab-light",name:"AppLab Light"};var v=`html, body, #root {
+`;const e={css:x,description:"Default AppLab Light theme",id:"applab-light",name:"AppLab Light"};var v=`html,
+body,
+#root {
   background-color: var(--bg-color-default);
 
   --amount-none: 0px;
@@ -372,6 +377,7 @@
   --bg-color-more-menu-rgb: var(--bg-color-default-rgb);
   --bg-color-navigation-bar-rgb: var(--bg-color-default-rgb);
   --bg-color-navigation-menu-rgb: var(--bg-color-default-rgb);
+  --bg-color-page-rgb: var(--bg-color-darker-rgb);
   --bg-color-slide-panel-rgb: var(--bg-color-light-rgb);
   --bg-color-workspace-rgb: var(--bg-color-darker-rgb);
 
@@ -393,8 +399,8 @@
   --text-color-title-rgb: var(--text-color-lightest-rgb);
   --text-color-sub-title-rgb: var(--text-color-default-rgb);
 }
-`;const u={css:v,description:"AppLab dark theme",id:"applab-dark",name:"AppLab Dark"},p=l.memo(({className:r="",children:s,theme:t,themes:o})=>{var b;const[a,n]=l.useState((b=o==null?void 0:o.find(g=>g.id===t))!=null?b:e);return l.useEffect(()=>{if(t&&o){const g=o.find(d=>d.id===t);n(g||e)}else n(e)},[t]),c.default.createElement("div",{className:`${a.id} ${r} theme-provider`},c.default.createElement(f,{theme:a}),s)}),f=i.createGlobalStyle`
+`;const p={css:v,description:"AppLab dark theme",id:"applab-dark",name:"AppLab Dark"},u=l.memo(({className:r="",children:s,theme:t,themes:o})=>{var a;const[b,n]=l.useState((a=o==null?void 0:o.find(g=>g.id===t))!=null?a:e);return l.useEffect(()=>{if(t&&o){const g=o.find(d=>d.id===t);n(g||e)}else n(e)},[t]),c.default.createElement("div",{className:`${b.id} ${r} theme-provider`},c.default.createElement(f,{theme:b}),s)}),f=i.createGlobalStyle`
   ${r=>r.theme.css};
 
-`;exports.AppLabDarkTheme=u;exports.AppLabLightTheme=e;exports.ThemeProvider=p;
+`;exports.AppLabDarkTheme=p;exports.AppLabLightTheme=e;exports.ThemeProvider=u;
 //# sourceMappingURL=index.cjs.js.map

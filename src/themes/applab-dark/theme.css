@@ -1,4 +1,6 @@
-html, body, #root {
+html,
+body,
+#root {
   background-color: var(--bg-color-default);
 
   --amount-none: 0px;
@@ -178,6 +180,7 @@ html, body, #root {
   --bg-color-more-menu-rgb: var(--bg-color-default-rgb);
   --bg-color-navigation-bar-rgb: var(--bg-color-default-rgb);
   --bg-color-navigation-menu-rgb: var(--bg-color-default-rgb);
+  --bg-color-page-rgb: var(--bg-color-darker-rgb);
   --bg-color-slide-panel-rgb: var(--bg-color-light-rgb);
   --bg-color-workspace-rgb: var(--bg-color-darker-rgb);
 
