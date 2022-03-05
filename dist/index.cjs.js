@@ -1,4 +1,4 @@
-"use strict";Object.defineProperties(exports,{__esModule:{value:!0},[Symbol.toStringTag]:{value:"Module"}});var n=require("react"),d=require("styled-components"),i=`html,
+"use strict";Object.defineProperties(exports,{__esModule:{value:!0},[Symbol.toStringTag]:{value:"Module"}});var l=require("react"),i=require("styled-components");function h(r){return r&&typeof r=="object"&&"default"in r?r:{default:r}}var c=h(l),x=`html,
 body,
 #root {
   background-color: var(--bg-color-default);
@@ -195,7 +195,7 @@ body,
   --text-color-title-rgb: var(--text-color-dark-rgb);
   --text-color-sub-title-rgb: var(--text-color-default-rgb);
 }
-`;const g={css:i,description:"Default AppLab Light theme",id:"applab-light",name:"AppLab Light"};var h=`html,
+`;const e={css:x,description:"Default AppLab Light theme",id:"applab-light",name:"AppLab Light"};var v=`html,
 body,
 #root {
   background-color: var(--bg-color-default);
@@ -399,8 +399,8 @@ body,
   --text-color-title-rgb: var(--text-color-lightest-rgb);
   --text-color-sub-title-rgb: var(--text-color-default-rgb);
 }
-`;const x={css:h,description:"AppLab dark theme",id:"applab-dark",name:"AppLab Dark"},v=n.memo(({className:l="",children:c,theme:o,themes:r})=>{var a;const[b,e]=n.useState((a=r==null?void 0:r.find(t=>t.id===o))!=null?a:g);return n.useEffect(()=>{if(o&&r){const t=r.find(s=>s.id===o);e(t||g)}else e(g)},[o]),React.createElement("div",{className:`${b.id} ${l} theme-provider`},React.createElement(p,{theme:b}),c)}),p=d.createGlobalStyle`
-  ${l=>l.theme.css};
+`;const p={css:v,description:"AppLab dark theme",id:"applab-dark",name:"AppLab Dark"},u=l.memo(({className:r="",children:s,theme:t,themes:o})=>{var a;const[b,n]=l.useState((a=o==null?void 0:o.find(g=>g.id===t))!=null?a:e);return l.useEffect(()=>{if(t&&o){const g=o.find(d=>d.id===t);n(g||e)}else n(e)},[t]),c.default.createElement("div",{className:`${b.id} ${r} theme-provider`},c.default.createElement(f,{theme:b}),s)}),f=i.createGlobalStyle`
+  ${r=>r.theme.css};
 
-`;exports.AppLabDarkTheme=x;exports.AppLabLightTheme=g;exports.ThemeProvider=v;
+`;exports.AppLabDarkTheme=p;exports.AppLabLightTheme=e;exports.ThemeProvider=u;
 //# sourceMappingURL=index.cjs.js.map

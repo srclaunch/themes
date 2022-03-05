@@ -1645,7 +1645,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@srclaunch/cli@npm:^0.1.17":
+"@srclaunch/cli@npm:^0.1.18":
   version: 0.1.18
   resolution: "@srclaunch/cli@npm:0.1.18"
   dependencies:
@@ -1683,7 +1683,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@srclaunch/themes@workspace:."
   dependencies:
-    "@srclaunch/cli": ^0.1.17
+    "@srclaunch/cli": ^0.1.18
     "@srclaunch/dx": ^0.1.2
     "@srclaunch/types": ^0.1.2
     "@types/node": ^17.0.15
@@ -1691,7 +1691,7 @@ __metadata:
     "@types/styled-components": ^5.1.21
     "@typescript-eslint/eslint-plugin": ^5.10.2
     "@typescript-eslint/parser": ^5.10.2
-    "@vitejs/plugin-react": ^1.1.4
+    "@vitejs/plugin-react": ^1.2.0
     copyfiles: ^2.4.1
     eslint: ^8.8.0
     eslint-config-prettier: ^8.3.0
@@ -1726,7 +1726,7 @@ __metadata:
     stylelint-config-styled-components: ^0.1.1
     stylelint-order: ^5.0.0
     typescript: ^4.5.5
-    vite: ^2.7.13
+    vite: ^2.8.6
   peerDependencies:
     react: ^17.0.2
     styled-components: ^5.3.3
@@ -2072,7 +2072,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@vitejs/plugin-react@npm:^1.1.4":
+"@vitejs/plugin-react@npm:^1.2.0":
   version: 1.2.0
   resolution: "@vitejs/plugin-react@npm:1.2.0"
   dependencies:
@@ -8813,7 +8813,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"vite@npm:^2.7.13":
+"vite@npm:^2.8.6":
   version: 2.8.6
   resolution: "vite@npm:2.8.6"
   dependencies:
