@@ -1,4 +1,4 @@
-import React, {
+import {
   memo,
   PropsWithChildren,
   ReactElement,
@@ -22,7 +22,9 @@ export const ThemeProvider = memo(
     theme,
     themes,
   }: ThemeProviderProps): ReactElement => {
-    const [currentTheme, setTheme] = useState<Theme>(themes?.find(t => t.id === theme) ?? AppLabLightTheme);
+    const [currentTheme, setTheme] = useState<Theme>(
+      themes?.find(t => t.id === theme) ?? AppLabLightTheme,
+    );
 
     useEffect(() => {
       if (theme && themes) {

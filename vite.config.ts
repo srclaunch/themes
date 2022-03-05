@@ -33,13 +33,8 @@ export default defineConfig({
     },
   },
   optimizeDeps: {
-    exclude: ['@srclaunch/logger', '@srclaunch/ui'],
-    include: [
-      'react/jsx-runtime',
-      'react-password-strength-bar',
-      'redux-logger',
-      'styled-components',
-    ],
+    exclude: [],
+    include: [],
   },
   esbuild: {
     // jsxInject: `import React from 'react'`,
