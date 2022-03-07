@@ -4,7 +4,8 @@
     "declaration": true,
     "declarationDir": "dist",
     "emitDeclarationOnly": true,
-    "rootDir": "src"
+    "rootDir": "src",
+    "types": ["vite/client"]
   },
   "include": ["src"]
 }
