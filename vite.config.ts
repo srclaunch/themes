@@ -30,25 +30,25 @@ export default defineConfig({
     pkgJson: { name, version },
   },
   optimizeDeps: {
-    exclude: [],
+    exclude: ['react', 'react-dom', 'styled-components'],
     include: [],
   },
   esbuild: {
-    jsxInject: `import React from 'react'`,
+    // jsxInject: `import React from 'react'`,
   },
   plugins: [
-    // react({
-    //   // babel: {
-    //   //   plugins: [
-    //   //     [
-    //   //       'babel-plugin-styled-components',
-    //   //       {
-    //   //         displayName: true,
-    //   //         fileName: false,
-    //   //       },
-    //   //     ],
-    //   //   ],
-    //   // },
-    // }),
+    react({
+      babel: {
+        plugins: [
+          [
+            'babel-plugin-styled-components',
+            {
+              displayName: true,
+              fileName: false,
+            },
+          ],
+        ],
+      },
+    }),
   ],
 });
