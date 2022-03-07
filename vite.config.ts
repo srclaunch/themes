@@ -7,8 +7,8 @@ export default defineConfig({
   build: {
     lib: {
       entry: path.resolve(__dirname, 'src/index.ts'),
-      fileName: 'index',
-      formats: ['es', 'cjs'],
+      fileName: format => `index${format === 'es' ? '' : '.' + format}.js`,
+      formats: ['es', 'cjs', 'umd'],
       name: 'themes',
     },
     sourcemap: true,
@@ -21,16 +21,13 @@ export default defineConfig({
         globals: {
           react: 'React',
           'react-dom': 'ReactDOM',
+          'styled-components': 'styled',
         },
       },
     },
   },
   define: {
     pkgJson: { name, version },
-    global: {},
-    process: {
-      env: {},
-    },
   },
   optimizeDeps: {
     exclude: [],

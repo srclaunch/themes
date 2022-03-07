@@ -11,16 +11,16 @@
     "access": "public",
     "registry": "https://registry.npmjs.org/"
   },
-  "main": "./dist/index.es.js",
+  "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "files": [
     "package.json",
     "dist"
   ],
-  "module": "./dist/index.es.js",
+  "module": "./dist/index.js",
   "exports": {
     ".": {
-      "import": "./dist/index.es.js",
+      "import": "./dist/index.js",
       "require": "./dist/index.cjs.js"
     }
   },
@@ -50,6 +50,7 @@
   },
   "peerDependencies": {
     "react": "^17.0.2",
+    "react-dom": "^17.0.2",
     "styled-components": "^5.3.3"
   },
   "devDependencies": {
@@ -88,7 +89,10 @@
     "eslint-plugin-unicorn": "^40.1.0",
     "prettier": "^2.5.1",
     "prettier-eslint": "^13.0.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
     "standard-version": "^9.3.2",
+    "styled-components": "^5.3.3",
     "stylelint": "^14.3.0",
     "stylelint-config-idiomatic-order": "^8.1.0",
     "stylelint-config-prettier": "^9.0.3",

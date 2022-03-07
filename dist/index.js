@@ -45,4 +45,4 @@ const GlobalStyle = createGlobalStyle`
 
 `;
 export { AppLabDarkTheme, AppLabLightTheme, ThemeProvider };
-//# sourceMappingURL=index.es.js.map
+//# sourceMappingURL=index.js.map
