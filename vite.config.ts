@@ -15,7 +15,7 @@ export default defineConfig({
     outDir: './dist',
     rollupOptions: {
       // Externalize deps that shouldn't be bundled
-      external: ['react', 'styled-components'],
+      external: ['react', 'react-dom', 'styled-components'],
       output: {
         // Global vars to use in UMD build for externalized deps
         globals: {
