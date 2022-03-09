@@ -1,3 +1,4 @@
+import { Theme } from '@srclaunch/types';
 import {
   memo,
   PropsWithChildren,
@@ -6,13 +7,13 @@ import {
   useState,
 } from 'react';
 import { createGlobalStyle } from 'styled-components';
-import { Theme } from '@srclaunch/types';
+
 import { AppLabLightTheme } from '../themes/applab-light';
 
 type ThemeProviderProps = PropsWithChildren<{
-  className?: string;
-  theme?: Theme['id'];
-  themes?: Theme[];
+  readonly className?: string;
+  readonly theme?: Theme['id'];
+  readonly themes?: readonly Theme[];
 }>;
 
 export const ThemeProvider = memo(
@@ -41,7 +42,13 @@ export const ThemeProvider = memo(
     }, [theme]);
 
     return (
-      <div className={`${currentTheme.id} ${className} theme-provider`}>
+      <div
+        className={`${currentTheme.id} ${className} theme-provider`}
+        style={{
+          display: 'flex',
+          flexGrow: 1,
+        }}
+      >
         <GlobalStyle theme={currentTheme} />
 
         {/*<ThemeStyles />*/}
@@ -53,7 +60,7 @@ export const ThemeProvider = memo(
 );
 
 const GlobalStyle = createGlobalStyle<{
-  theme?: Theme;
+  readonly theme?: Theme;
 }>`
   ${props => props.theme.css};
 
