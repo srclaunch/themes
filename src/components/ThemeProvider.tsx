@@ -47,6 +47,7 @@ export const ThemeProvider = memo(
         style={{
           display: 'flex',
           flexGrow: 1,
+          overflow: 'hidden',
         }}
       >
         <GlobalStyle theme={currentTheme} />

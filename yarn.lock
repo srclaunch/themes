@@ -1702,10 +1702,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@srclaunch/dx@npm:^0.1.2":
-  version: 0.1.2
-  resolution: "@srclaunch/dx@npm:0.1.2"
-  checksum: cb4365dc3c3195555aba342d560a40d0740f547bb0a419b4bc9b45886dea459abb93e98b619ff419523ea299d967fb3e75a5d6210347a11dc7b2cfab3ef4585f
+"@srclaunch/dx@npm:^0.1.6":
+  version: 0.1.6
+  resolution: "@srclaunch/dx@npm:0.1.6"
+  checksum: 4b9077e3d6b99de2b10e529d6197e69ed6f97138fdb1ebcb91834de02cc500c7911c1ad688f761f2ada87e1eab0a8ba0d50bf0db2d084bb2e38bd5d3fb8aa8c2
   languageName: node
   linkType: hard
 
@@ -1714,7 +1714,7 @@ __metadata:
   resolution: "@srclaunch/themes@workspace:."
   dependencies:
     "@srclaunch/cli": ^0.1.18
-    "@srclaunch/dx": ^0.1.2
+    "@srclaunch/dx": ^0.1.6
     "@srclaunch/types": ^0.1.2
     "@types/node": ^17.0.15
     "@types/react": ^17.0.39
