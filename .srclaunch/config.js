@@ -14,8 +14,6 @@ export default {
   build: {
     formats: [BuildFormat.ESM, BuildFormat.UMD],
     platform: BuildPlatform.Browser,
-    sourcemap: true,
-    splitting: false,
     target: BuildTarget.ESNext,
     tool: BuildTool.Vite,
   },
