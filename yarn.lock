@@ -1922,9 +1922,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@srclaunch/cli@npm:^0.1.273":
-  version: 0.1.273
-  resolution: "@srclaunch/cli@npm:0.1.273"
+"@srclaunch/cli@npm:^0.1.276":
+  version: 0.1.276
+  resolution: "@srclaunch/cli@npm:0.1.276"
   dependencies:
     "@rauschma/stringio": ^1.4.0
     "@srclaunch/exceptions": ^0.1.48
@@ -1957,7 +1957,7 @@ __metadata:
     ansi-styles: "*"
   bin:
     srclaunch: dist/index.mjs
-  checksum: e9089a3c5a838921407262b6ea16e60da3a095e02f218b95495a58efce1fb809f07b73dcb41cbd65ff4c2e9264d0026eb423b585faa5ea600fca4b5bb1e11ca6
+  checksum: 64e104237a17b7d4990abb147dfb9b66f4ce716831ba6560a7934dea75c77b090b15bbbf5fde2ebeb13bab4df82a69fad3d7e4dbade5f66a7acc86134ca9eea2
   languageName: node
   linkType: hard
 
@@ -1995,7 +1995,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@srclaunch/themes@workspace:."
   dependencies:
-    "@srclaunch/cli": ^0.1.273
+    "@srclaunch/cli": ^0.1.276
     "@srclaunch/dx": ^0.1.43
     "@srclaunch/types": ^0.1.97
     "@testing-library/jest-dom": ^5.16.4

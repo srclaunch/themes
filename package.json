@@ -40,7 +40,7 @@
     "styled-components": "^5.3.3"
   },
   "devDependencies": {
-    "@srclaunch/cli": "^0.1.273",
+    "@srclaunch/cli": "^0.1.276",
     "@srclaunch/dx": "^0.1.43",
     "@srclaunch/types": "^0.1.97",
     "@testing-library/jest-dom": "^5.16.4",
