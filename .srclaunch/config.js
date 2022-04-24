@@ -25,9 +25,6 @@ export default {
     coverage: {
       reporters: [TestReporter.Lcov, TestReporter.JSONSummary],
     },
-    files: {
-      include: ['src/**/*.test.{js,jsx,ts,tsx}'],
-    },
     tool: TestTool.Jest,
     verbose: true,
   },
