@@ -5,16 +5,17 @@ import {
   BuildTool,
   ProjectType,
   TestReporter,
-  TestTool
+  TestTool,
 } from '@srclaunch/types';
 
 export default {
   name: '@srclaunch/themes',
-  description: 'CSS variables and styled-component based themes used by SrcLaunch applications',
+  description:
+    'CSS variables and styled-component based themes used by SrcLaunch applications',
   type: ProjectType.Library,
   build: {
     bundle: {
-      exclude: ['react'],
+      exclude: ['react', 'react-dom'],
     },
     formats: [BuildFormat.ESM, BuildFormat.UMD],
     platform: BuildPlatform.Node,
