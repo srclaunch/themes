@@ -2079,7 +2079,7 @@ __metadata:
   peerDependencies:
     react: ^18.1.0
     react-dom: ^18.1.0
-    styled-components: ^5.3.3
+    styled-components: ^5.3.5
   languageName: unknown
   linkType: soft
 
