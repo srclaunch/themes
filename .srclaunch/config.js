@@ -15,7 +15,7 @@ export default {
   type: ProjectType.Library,
   build: {
     bundle: {
-      exclude: ['react', 'react-dom'],
+      exclude: ['react', 'react-dom', 'styled-components'],
     },
     formats: [BuildFormat.ESM, BuildFormat.UMD],
     platform: BuildPlatform.Node,
