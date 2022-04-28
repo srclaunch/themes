@@ -16,6 +16,10 @@ export default {
   build: {
     bundle: {
       exclude: ['react', 'react-dom', 'styled-components'],
+      globals: {
+        react: 'React',
+        'styled-components': 'styled',
+      },
     },
     formats: [BuildFormat.ESM, BuildFormat.UMD],
     platform: BuildPlatform.Node,

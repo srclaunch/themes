@@ -1956,9 +1956,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@srclaunch/cli@npm:^0.1.319":
-  version: 0.1.326
-  resolution: "@srclaunch/cli@npm:0.1.326"
+"@srclaunch/cli@npm:^0.1.327":
+  version: 0.1.327
+  resolution: "@srclaunch/cli@npm:0.1.327"
   dependencies:
     "@rauschma/stringio": ^1.4.0
     "@srclaunch/exceptions": ^0.1.58
@@ -1991,7 +1991,7 @@ __metadata:
     vite: ^2.9.6
   bin:
     srclaunch: dist/index.mjs
-  checksum: 0dba692e2ee18f7e1602eafbe6a62f0fa7a4729230d23db36108a2b17ac5ba6ffd8ed3ed2f653def86921ead8e9d1687ade9d55337df36fb448051160984eaf2
+  checksum: 1cace7974aab30da0bab091914721f4cb4f77487e554b4c269b08a4512bc24b2a284a470df31a764386eaaa017602352bde7a552492849e7353ba5d5aea974e6
   languageName: node
   linkType: hard
 
@@ -2036,9 +2036,9 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@srclaunch/themes@workspace:."
   dependencies:
-    "@srclaunch/cli": ^0.1.319
+    "@srclaunch/cli": ^0.1.327
     "@srclaunch/dx": ^0.1.44
-    "@srclaunch/types": ^0.1.111
+    "@srclaunch/types": ^0.1.114
     "@testing-library/jest-dom": ^5.16.4
     "@testing-library/react": ^13.1.1
     "@types/jest": ^27.4.1
@@ -2075,9 +2075,8 @@ __metadata:
     eslint-plugin-sort-requires: ^2.1.0
     eslint-plugin-testing-library: ^5.3.1
     eslint-plugin-unicorn: ^42.0.0
-    jest: ^27
     prettier: ^2.6.2
-    prettier-eslint: ^14.0.1
+    prettier-eslint: ^14.0.2
     react: ^18.1.0
     react-dom: ^18.1.0
     standard-version: ^9.3.2
@@ -2094,10 +2093,10 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@srclaunch/types@npm:^0.1.111":
-  version: 0.1.112
-  resolution: "@srclaunch/types@npm:0.1.112"
-  checksum: 501eeda89b359817e5b5c57176296569c7d26b73dd5ff6dea3c38722ae6776501e7faac9ca0cd9c85bbbd264d50688194897a0def2e37411bdbdf5069cb6657c
+"@srclaunch/types@npm:^0.1.114":
+  version: 0.1.114
+  resolution: "@srclaunch/types@npm:0.1.114"
+  checksum: 481111d27b676621ba8ae1faac625357eab2453113a5628071bd0b43a9811f491567e0645d4fdb53265754f8fb322cf952a2efc65f8a3819c2e13c408c7b098e
   languageName: node
   linkType: hard
 
@@ -7733,7 +7732,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"jest@npm:^27, jest@npm:^27.5.1":
+"jest@npm:^27.5.1":
   version: 27.5.1
   resolution: "jest@npm:27.5.1"
   dependencies:
@@ -9430,9 +9429,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"prettier-eslint@npm:^14.0.1":
-  version: 14.0.1
-  resolution: "prettier-eslint@npm:14.0.1"
+"prettier-eslint@npm:^14.0.2":
+  version: 14.0.2
+  resolution: "prettier-eslint@npm:14.0.2"
   dependencies:
     "@typescript-eslint/parser": ^5.10.0
     common-tags: ^1.4.0
@@ -9446,7 +9445,7 @@ __metadata:
     require-relative: ^0.8.7
     typescript: ^4.5.4
     vue-eslint-parser: ^8.0.1
-  checksum: 41537cc86ade12a0f09aee7a709aaf21bba2e26f45a97c5a1b056ce6a8e3ac631af81d554563182e3d5b3753592e05a398cb81efd292f2a5766afb2e65996ada
+  checksum: 488408f763ab965edda4f5a31763c6686bd914d07df3958aa131257b3790ef5f22c8c804799ece4935563dca78ede8e017fd39eb421223dfb0a7ee2d623cfc68
   languageName: node
   linkType: hard
 
