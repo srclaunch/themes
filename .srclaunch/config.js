@@ -15,7 +15,7 @@ export default {
   type: ProjectType.Library,
   build: {
     bundle: {
-      exclude: ['react', 'react-dom', 'styled-components'],
+      exclude: ['react', 'styled-components'],
       globals: {
         react: 'React',
         'styled-components': 'styled',
